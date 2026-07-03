@@ -81,3 +81,14 @@ HAL_GetTick() - 부팅 후 지난 시간을 ms 단위로 줌
 <I2C 파형 순서>
 (start) 101 0101 0 0(ACK) 0100 0101 0(ACK) (stop)
    0   (주소 7bit)(W)       (data - 8bit)           0 
+
+<OLED 라이브러리>
+https://github.com/mokhwasomssi/stm32_hal_ssd1306
+- 주소
+
+ssd1306.c
+ssd1306.h
+ssd1306_font.c
+ssd1306_font.h
+
+사용해야함
