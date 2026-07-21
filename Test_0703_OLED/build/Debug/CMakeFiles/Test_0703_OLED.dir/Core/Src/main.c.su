@@ -1,0 +1,9 @@
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:92:9:Button_IsPressed	16	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:107:6:OLED_ShowMessage	16	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:120:6:OLED_ShowArrowMessage	24	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:125:6:OLED_ShowArrowMessageAt	24	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:139:6:OLED_DrawClippedPixel	16	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:147:6:OLED_DrawArrow	32	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:197:5:main	32	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:313:6:SystemClock_Config	160	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/main.c:360:6:Error_Handler	4	static,ignoring_inline_asm

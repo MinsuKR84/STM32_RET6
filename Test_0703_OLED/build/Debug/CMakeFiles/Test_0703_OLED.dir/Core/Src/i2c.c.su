@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/i2c.c:30:6:MX_I2C1_Init	8	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/i2c.c:73:6:HAL_I2C_MspInit	48	static
+C:/Users/User/Desktop/STM/STM32F303-RET6/Test_0703_OLED/Core/Src/i2c.c:103:6:HAL_I2C_MspDeInit	16	static
