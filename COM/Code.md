@@ -1,16 +1,16 @@
 
 ```
 # 0. 처음에 작업을 시작할 때
-git pull origin main 
+git pull
 
 # 1. 변경된 모든 파일 장바구니에 담기
 git add .
 
 # 2. 무슨 작업을 했는지 기록하기
-git commit -m "ST-LINK 연결 이론 추가 (민수)"
+git commit -m "2026/0729 내용 [민수]"
 
 # 3. GitHub 서버로 전송
-git push origin main
+git push
 ```
 
 ```
