@@ -68,6 +68,11 @@ while (1)
     HAL_Delay(1000);
 }
 ```
+
+<파형>
+
+![](../../STM_image/SCR03%201.png)
+
 - 문자 `'A'`는 다음 값입니다.
 
 ```
@@ -97,7 +102,7 @@ High    Low                     High
 Idle  Start   D0 D1 D2 D3 D4 D5 D6 D7  Stop
 High    0      1  0  0  0  0  0  1  0    1
 
-```
+``` 
 ※ UART는 평상시에 TX가 High이고, Start bit에서 Low로 내려가면서 수신기에게 “지금부터 데이터가 시작된다”고 알림
 
  <비트 시간 계산>
@@ -116,3 +121,5 @@ High    0      1  0  0  0  0  0  1  0    1
 - `sizeof(msg)` = 전체 배열 크기에서 문자열 종료문자 `\0` 한 바이트를 뺌
 
 > TX/RX를 교차하고 설정만 동일하면 비교적 쉽게 통신된다. 오실로스코프에서는 Idle High, Start Low, LSB First 데이터를 확인
+
+- polling interrupt 차이
