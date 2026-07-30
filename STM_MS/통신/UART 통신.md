@@ -114,12 +114,25 @@ High    0      1  0  0  0  0  0  1  0    1
 - 문자 하나의 전송 시간은 약
 ```
 10 × 8.68µs ≈ 86.8µs
-```
+
 
 <`strlen()`과 `sizeof()` 차이>
 - `strlen(msg)` = 문자열의 `\0` 전까지 계산
-- `sizeof(msg)` = 전체 배열 크기에서 문자열 종료문자 `\0` 한 바이트를 뺌
+- `sizeof(msg) -1` = 전체 배열 크기에서 문자열 종료문자 `\0` 한 바이트를 뺌
+  
+char msg[] = "ABC";
+
+'A' 'B' 'C' '\0' 
+ 1   1   1    1 byte
+ 
+ strlen(msg) = 3
+ sizeof(msg) = 4 / sizeof(msg) -1 = 3
 
 > TX/RX를 교차하고 설정만 동일하면 비교적 쉽게 통신된다. 오실로스코프에서는 Idle High, Start Low, LSB First 데이터를 확인
 
 - polling interrupt 차이
+
+  
+  ## UART Prescaler
+
+UART도 내부적으로 주변장치 클럭을 나누어 원하는 Baud rate를 생성합니다. 다만 보통 사용자는 CubeMX에 115200 같은 Baud rate를 입력하고 HAL이 관련 레지스터 값을 계산합니다.
